@@ -1,1 +1,30 @@
 @charset "UTF-8";
+
+body{
+	background-color: black;
+	background-image: url(./../images/icon_star.png);
+	background-size: 100px;
+}
+#wrap{
+	width: 600px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px #fff;
+	box-shadow: -5px -5px 20px inset rgba(0,0,0,0.5);
+	font-family: 'NeoDunggeunmo',돋움;
+	
+}
+header>h1{
+ 	 color: transparent;
+	font-family:'DNFBitBitv2',돋움;
+	font-size: 38px;
+	 background: linear-gradient(90deg, red, orange, yellow, green, blue, navy, purple);
+	background-clip:text;
+}
+
+header>h1:after,
+header>h1:before{
+	content:'\2605';
+}
