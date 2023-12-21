@@ -28,3 +28,38 @@ header>h1:after,
 header>h1:before{
 	content:'\2605';
 }
+
+
+footer>p.contact{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+footer>p.contact>a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px #ccc;
+	margin-right: 10px;
+}
+footer>p.contact>a:last-child{
+	margin-right: 0;
+}
+footer>p.contact>a.contact-blog{
+	background-image: url(./../images/naver_mail.png);
+	background-size: cover;
+}
+footer>p.contact>a.contact-sns{
+	background-image: url(./../images/instagram_logo.png);
+	background-size: cover;
+}
+footer>p.contact>a.contact-github{
+	background-image: url(./../images/github_logo.png);
+	background-size: cover;
+}
+footer>address{
+	margin-top :20px;
+	display: block;
+	text-align: center;
+}
