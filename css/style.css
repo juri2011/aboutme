@@ -29,6 +29,117 @@ header>h1:before{
 	content:'\2605';
 }
 
+section>h2{
+	margin-bottom: 20px;
+	color: #ccc;
+	text-align: center;
+	line-height: 1.5;
+	font-weight: 400;
+}
+section>h2>strong{
+	display: block;
+	color: black;
+	font-weight: 600;
+	font-size: 32px;
+}
+section>article>figure{
+	overflow: hidden;
+	width: 300px;
+	margin: 0 auto;
+	border-radius: 20px;
+	box-shadow: 3px 3px 10px #ccc;
+	background-color: pink;
+}
+article>figure>img{
+	display: block;
+	width: inherit;
+}
+section>article{
+	margin-bottom: 50px;
+}
+section>article.bar-article>h3{
+	text-align: center;
+	line-height: 50px;
+}
+section>article.bar-article>ul>li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 350px;
+	margin: 10px auto 0;
+	color: #555;
+	font-size: 16px;
+	font-weight: 600;
+}
+section>article>ul>li>.bar-container{
+	width: 280px;
+	display: flex;
+	justify-content: center;
+	
+}
+section>article>ul>li>.bar-container>.bar{
+	width: 50px;
+	height: 20px;
+	background-color: #ccc;
+	margin-right: 3px;
+	box-shadow: 3px 3px 3px inset rgb(0,0,0,0.5);
+}
+section>article>ul>li>.bar-container>.filled{
+	width: 50px;
+	height: 20px;
+	background: linear-gradient(yellow, gold, goldenrod);
+	margin-right: 3px;
+	box-shadow: none;
+}
+section>article>ul>li>.bar-container>.bar:first-child{
+	border-radius: 10px 0px 0px 10px;
+}
+section>article>ul>li>.bar-container>.bar:last-child{
+	border-radius: 0px 10px 10px 0px;
+	margin-right: 0;
+}
+section>article.my-desc{
+	padding: 0 25px; 
+}
+
+section>article.my-desc>p{
+	margin-top: 10px;
+	color: #888;
+	text-align: justify;
+	line-height: 1.2;
+}
+section>article.my-likes{
+	display: flex;
+	justify-content: space-around;
+}
+section>article.my-likes>article>ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 250px;
+	height: 100px;
+	margin-top: 20px;
+	padding: 20px 10px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 10px #ccc;
+}
+section>article.my-likes>article>ul>li{
+	list-style-type:disc;
+	margin-left: 20px;
+}
+section>article.my-rank>h3{
+	line-height: 50px;
+}
+section>article.my-rank{padding: 10px;}
+section>article.my-rank>ul>li{
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px #ccc;
+}
+section>article.my-rank>ul>li:last-child{
+	margin-bottom: 0;
+}
 
 footer>p.contact{
 	display: flex;
@@ -62,4 +173,5 @@ footer>address{
 	margin-top :20px;
 	display: block;
 	text-align: center;
+	
 }
